@@ -1,6 +1,6 @@
 # Class: iproute2::flush
 #
-# This module manages iproute2
+# This class manages flushing routes after an update
 #
 # Parameters:
 #

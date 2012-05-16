@@ -1,8 +1,12 @@
-# Class: iproute2
+# Define: iproute2::table
 #
-# This module manages iproute2
+# This define manages adding and removing a route table
 #
 # Parameters:
+#  table   - routing table name
+#  id      - routing table ID
+#  ensure  - absent or present
+#  rttable - Path to rt_tables
 #
 # Actions:
 #
