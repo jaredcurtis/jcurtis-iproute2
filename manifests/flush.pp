@@ -1,4 +1,4 @@
-# Class: iproute2
+# Class: iproute2::flush
 #
 # This module manages iproute2
 #
@@ -11,8 +11,9 @@
 # Sample Usage:
 #
 # [Remember: No empty lines between comments and class definition]
-class iproute2 {
-#  package { 'iproute2':
-#    ensure => installed
-#  }
+class iproute2::flush {
+  exec { 'flush routes':
+    command     => '/sbin/ip route flush table cache',
+    refreshonly => true,
+  }
 }
