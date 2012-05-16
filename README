@@ -1,3 +1,4 @@
-iproute2
+Module to manage adding route tables, rules, and routes using iproute2.
 
-This is the iproute2 module.
+This module was created for a specific use case in my environment and wasn't
+designed as a complete solution (I hope it becomes one though).
